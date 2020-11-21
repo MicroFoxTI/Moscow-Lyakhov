@@ -24,7 +24,8 @@ class Drawer(QMainWindow):
         painter.drawEllipse(x, y, w, h)
         painter.end()
         self.update()
-
+        # допустим что-то изменил
+        # и че?
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
